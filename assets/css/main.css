@@ -2648,6 +2648,22 @@ input, select, textarea {
 				margin: 0 auto;
 			}
 
+		.image.cust {
+			display: block;
+			margin: 4rem 0;
+			width: 100%; 
+		}
+
+			.image.cust:first-child {
+				margin-top: 0;
+			}
+
+			.image.cust img {
+				width: 30%;
+				display: block;
+				margin: 0 auto;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
